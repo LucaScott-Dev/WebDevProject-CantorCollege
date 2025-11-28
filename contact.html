@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Cantor College</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
+</head>
+<body class="contact">
+    <header class="header">
+        <nav class="nav-container">
+            <img src="images/logo.jpg" alt="" class="logo">
+            <h1 class="nav-title">Cantor College</h1>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="facilities.html">Facilities</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <button id="burger" class="burger">
+                <span></span><span></span><span></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-content">
+            <h1>Contact Us</h1>
+
+            <p>
+                Cantor College<br>
+                Main Street<br>
+                Sheffield<br>
+                SC4 2BB<br>
+                Tel:(01321) 2340 235<br>
+                Fax: (01321) 2340 236<br>
+                Email: info@cantorcollege.ac.uk
+            </p>
+
+            <form id="contactForm" class="contact-form">
+                <div class="form-group">
+                    <label>Name</label>
+                    <input type="text" id="name">
+                </div>
+
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" id="email">
+                </div>
+
+                <div class="form-group">
+                    <label>Message</label>
+                    <textarea id="message"></textarea>
+                </div>
+
+                <button class="btn" type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Cantor College</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
