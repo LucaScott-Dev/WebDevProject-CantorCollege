@@ -12,7 +12,7 @@ html, body {
     .home       { background: url("../images/HomeBackground.jpg") center/cover no-repeat fixed; }
     .about      { background: url("../images/AboutUsBackground.jpg") center/cover no-repeat fixed; }
     .facilities { background: url("../images/FacilitiesBackground.jpg") center/cover no-repeat fixed; }
-    .courses    { background: url("../images/CourseBackground.jpg") center/cover no-repeat fixed; }
+    .courses   { background: url("../images/CourseBackground.jpg") center/cover no-repeat fixed; }
     .contact    { background: url("../images/ContactUsBackground.jpg") center/cover no-repeat fixed; }
 
     .page-content {
@@ -200,6 +200,34 @@ h3 { font-size: 1.5rem; }
     object-fit: cover;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+/* HOMEPAGE IMAGE */
+.homepage-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    object-fit: cover;
+}
+
+/* Optional: Limit max height on huge screens */
+@media (min-width: 900px) {
+    .homepage-image img {
+        max-height: 450px;
+    }
+}
+
+.info-links a:link,
+.info-links a:visited {
+    color: #0A437C;   /* same blue as your branding */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.info-links a:hover {
+    text-decoration: underline;
 }
 
 /* FOOTER */
