@@ -1,2 +1,0 @@
-# WebDevProject-CantorCollegeV2
-
